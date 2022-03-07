@@ -1,0 +1,6 @@
+[submodule "Challenge01"]
+	path = Challenge01
+	url = https://github.com/Dirosaki/Challenge01-Codelandia
+[submodule "Challenge22"]
+	path = Challenge22
+	url = https://github.com/Dirosaki/Challenge22-Codelandia
