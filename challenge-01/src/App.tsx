@@ -1,3 +1,13 @@
+import { Home } from 'pages/Home'
+import { ThemeProvider } from 'styled-components'
+import { GlobalStyle } from 'styles/global'
+import { theme } from 'styles/theme'
+
 export const App = () => {
-  return <h1>Hello World!</h1>
+  return (
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Home />
+    </ThemeProvider>
+  )
 }

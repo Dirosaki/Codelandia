@@ -20,7 +20,7 @@ export const GlobalStyle = createGlobalStyle(
       height: 100%;
       display: flex;
       flex-direction: column;
-      background: ${theme.colors.blue[50]};
+      background: ${theme.colors.dark[10]};
     }
 
     body,

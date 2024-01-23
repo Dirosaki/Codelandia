@@ -1,6 +1,5 @@
 import 'styled-components'
-
-import { type theme } from 'styles/themes'
+import { theme } from 'styles/theme'
 
 type ThemeType = typeof theme
 
