@@ -1,4 +1,5 @@
 import { ReactNode, createElement } from 'react'
+
 import styled, { css } from 'styled-components'
 
 type Headings = 'h1' | 'h2' | 'h3' | 'h4' | 'h4' | 'h6'
@@ -22,7 +23,7 @@ export const Typography = styled(
     font-weight: ${weight};
     color: ${color ?? theme.colors.dark[60]};
 
-    ${(variant?.startsWith('h') || variant === 'strong') &&
+    ${(variant?.startsWith('h') ?? variant === 'strong') &&
     css`
       font-family: 'Space Grotesk', sans-serif;
     `}

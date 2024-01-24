@@ -14,7 +14,6 @@
     "airbnb-typescript",
     "plugin:react-hooks/recommended",
     "plugin:jsx-a11y/recommended",
-    "plugin:storybook/recommended",
     "plugin:prettier/recommended",
     "./.eslintimport"
   ],
@@ -25,14 +24,11 @@
     },
     "ecmaVersion": "latest",
     "sourceType": "module",
-    "project": "./tsconfig.json"
+    "project": "challenge-01/tsconfig.json"
   },
   "plugins": [
     "react",
-    "@typescript-eslint",
-    "promise",
-    "prefer-arrow",
-    "unused-imports"
+    "@typescript-eslint"
   ],
   "rules": {
     "react/react-in-jsx-scope": "off",
@@ -97,7 +93,6 @@
     "@typescript-eslint/switch-exhaustiveness-check": "error",
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
     "@typescript-eslint/no-unnecessary-type-arguments": "error",
-    "storybook/csf-component": "error",
     "jsx-a11y/label-has-associated-control": [
       "error",
       {
@@ -107,17 +102,6 @@
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off",
     "import/order": "off",
-    "unused-imports/no-unused-imports": "error",
-    "prefer-arrow-callback": "error",
-    "prefer-arrow/prefer-arrow-functions": [
-      "error",
-      {
-        "disallowPrototype": true,
-        "singleReturnOnly": false,
-        "classPropertiesAllowed": false
-      }
-    ],
-    "promise/prefer-await-to-then": "error",
     "camelcase": "error",
     "max-lines": [
       "error",

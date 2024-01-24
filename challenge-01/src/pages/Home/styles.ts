@@ -82,3 +82,28 @@ export const SearchFieldContainer = styled.div(
     }
   `
 )
+
+export const Container = styled.main`
+  padding-inline: 1.5rem;
+
+  @media (min-width: 48rem) {
+    padding-inline: 2rem;
+  }
+`
+
+export const PostList = styled.ul`
+  margin-inline: auto;
+  padding-block: 2.5rem;
+  max-width: 76rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  @media (min-width: 48rem) {
+    padding-block: 3.5rem;
+  }
+
+  @media (min-width: 64rem) {
+    padding-block: 5rem;
+  }
+`
